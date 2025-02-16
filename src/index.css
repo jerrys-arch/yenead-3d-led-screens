@@ -2,3 +2,16 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+@layer base {
+  :root {
+    --background: rgb(1, 6, 27);
+    --foreground: rgb(255, 255, 255); 
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
