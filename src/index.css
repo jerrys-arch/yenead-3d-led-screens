@@ -2,8 +2,6 @@
 html {
   scroll-behavior: smooth;
 }
-
-
 @layer base {
   :root {
     --background: rgb(1, 6, 27);

@@ -35,13 +35,13 @@ const HomePage = () => {
             life with stunning visuals and clarity.
           </p>
           <div className="flex justify-center space-x-6 mt-4">
-            <button className="bg-gradient-to-r from-indigo-500 to-blue-500 text-white py-3 px-8 rounded-lg text-xl hover:bg-indigo-600 transition-all duration-300 transform hover:scale-105">
+            <button className=" text-white py-3 px-8 rounded-lg text-xl hover:bg-indigo-600 transition-all duration-300 transform hover:scale-105">
               Get in Touch
             </button>
-            <button className="bg-gradient-to-r from-yellow-400 to-amber-500 text-white py-3 px-8 rounded-lg text-xl hover:bg-amber-600 transition-all duration-300 transform hover:scale-105">
+            <button className=" text-white py-3 px-8 rounded-lg text-xl hover:bg-amber-600 transition-all duration-300 transform hover:scale-105">
               Learn More
             </button>
-            <button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-3 px-8 rounded-lg text-xl hover:bg-purple-600 transition-all duration-300 transform hover:scale-105">
+            <button className=" text-white py-3 px-8 rounded-lg text-xl hover:bg-purple-600 transition-all duration-300 transform hover:scale-105">
               Book a Slot
             </button>
           </div>

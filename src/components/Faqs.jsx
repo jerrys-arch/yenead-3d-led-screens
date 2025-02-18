@@ -26,7 +26,7 @@ const Faqs = () => {
 
   return (
     <div
-      className="w-full mx-auto py-12 bg-[url('https://img.freepik.com/free-photo/3d-technology-geometric-black-background_53876-97124.jpg?t=st=1739542977~exp=1739546577~hmac=7f253a46316ddcb6e6357677d7916295dbd2238765c0d330e96a1e1c494b09a7&w=996')] bg-cover bg-center text-white"
+      className="w-full mx-auto py-12  text-white"
       id="faqs"
     >
       <motion.h2

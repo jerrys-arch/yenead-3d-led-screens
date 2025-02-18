@@ -4,7 +4,7 @@ import { motion } from "framer-motion"; // Import motion
 const ContactUs = () => {
   return (
     <div
-      className="container mx-auto px-6 py-12 bg-[url('https://img.freepik.com/free-photo/3d-technology-geometric-black-background_53876-97124.jpg?t=st=1739542977~exp=1739546577~hmac=7f253a46316ddcb6e6357677d7916295dbd2238765c0d330e96a1e1c494b09a7&w=996')] bg-cover bg-center text-white"
+      className="container mx-auto px-6 py-12  text-white"
       id="contact"
     >
       <motion.h1
@@ -23,19 +23,19 @@ const ContactUs = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="bg-black opacity-50 p-8 rounded-lg shadow-lg w-full sm:w-1/2 lg:w-2/3 space-y-6">
+        <div className="bg-gradient-to-r from-teal-300 to-blue-500 opacity-50 p-8 rounded-lg shadow-lg w-full sm:w-1/2 lg:w-2/3 space-y-6">
           <h2 className="text-3xl font-semibold text-center text-indigo-600 mb-6">
             Contact Form
           </h2>
           <form className="space-y-4">
             <div>
-              <label className="block mb-2 text-indigo-600" htmlFor="name">
+              <label className="block mb-2 text-indigo-800" htmlFor="name">
                 Name
               </label>
               <input
                 type="text"
                 id="name"
-                className="border border-gray-300 rounded-lg w-full p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="border border-gray-600 rounded-lg w-full p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 placeholder="Your Name"
                 required
               />
@@ -47,7 +47,7 @@ const ContactUs = () => {
               <input
                 type="email"
                 id="email"
-                className="border border-gray-300 rounded-lg w-full p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="border border-gray-600 rounded-lg w-full p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 placeholder="Your Email"
                 required
               />
@@ -58,7 +58,7 @@ const ContactUs = () => {
               </label>
               <textarea
                 id="message"
-                className="border border-gray-300 rounded-lg w-full p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="border border-gray-600 rounded-lg w-full p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 rows="4"
                 placeholder="Your Message"
                 required
