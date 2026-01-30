@@ -80,7 +80,9 @@ This project is deployed using Vercel.
 
 To run locally:
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jerrys-arch/yenead-3d-led-screens.git
+
+cd yenead-3d-led-screens
+
 npm install
 npm run dev
