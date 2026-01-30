@@ -109,7 +109,7 @@ const AboutUs = () => {
               alt="Robel Degu"
               className="w-full h-48 object-cover rounded-t-lg"
             />
-            <h3 className="text-xl font-bold mt-4 text-indigo-300">
+            <h3 className="text-xl font-bold mt-4 text-indigo-600">
               Robel Degu
             </h3>
             <p className="text-lg text-gray-600">Founder & CEO</p>
