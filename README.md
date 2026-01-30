@@ -24,25 +24,21 @@ Deploying a static frontend site to a live environment
 
 🛠 Tech Stack
 
-React – Component-based UI development
-
-Vite – Fast development and build tool
-
-Tailwind CSS / CSS – Styling and responsive design
-
-Vercel – Deployment and hosting
+- React – Component-based UI development
+- Vite – Fast development and build tool
+- Tailwind CSS / CSS – Styling and responsive design
+- Framer Motion – Smooth scroll animations and interactive UI
+- Vercel – Deployment and hosting
 
 ✨ Features
 
-📱 Fully Responsive Design – Optimized for mobile, tablet, and desktop
+- 📱 Fully Responsive Design – Optimized for mobile, tablet, and desktop
+- 🧭 Multi-Page Navigation – Structured routing between different sections
+- 🎯 Modern Business UI – Professional layout for showcasing products and services
+- ⚡ Optimized Performance – Built with Vite for fast loading
+- 🌟 Interactive Animations – Smooth scroll-in effects using Framer Motion
+- 🌍 Live Deployment – Publicly accessible via Vercel
 
-🧭 Multi-Page Navigation – Structured routing between different sections
-
-🎯 Modern Business UI – Professional layout for showcasing products and services
-
-⚡ Optimized Performance – Built with Vite for fast loading
-
-🌍 Live Deployment – Publicly accessible via Vercel
 
 📄 Pages Included
 
